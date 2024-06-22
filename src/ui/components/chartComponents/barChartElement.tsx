@@ -2,7 +2,6 @@ import { BarChart } from '@mui/x-charts/BarChart';
 import React from 'react';
 
 export const BarChartElement: React.FC<{data: any}> = ({data}) => {
-  const errorMessage = "Data is empty. Cannot display bar chart.";
     const chartSetting = {
         xAxis: [
           {

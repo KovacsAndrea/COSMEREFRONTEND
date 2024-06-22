@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { SearchBar } from "./searchBar.tsx"
 import { useEffect, useState } from "react";
 import './theme.css'
@@ -9,7 +9,6 @@ export const NavBar: React.FC<{}> = ({}) => {
     const { 
         user,
         refreshUser,
-        goingToMainPage,
         setGoindToMainPage,
      } = useGlobalState();
     const navigate = useNavigate();

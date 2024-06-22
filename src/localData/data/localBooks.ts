@@ -1,5 +1,4 @@
 
-import { ObjectId } from 'mongodb'
 import { Book } from '../models/book.ts'
 
 export const dummyRafo: Book[] = [

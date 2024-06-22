@@ -1,4 +1,4 @@
-import { BookData } from "../models/book.ts";
+import { Book } from "../models/book.ts";
 import { BookRepo } from "../repo/bookRepo.ts";
 
 export class BookService{
@@ -8,7 +8,7 @@ export class BookService{
         this.bookRepo = bookRepo;
     }
 
-    public getAllBooks(): BookData[]{
+    public getAllBooks(): Book[]{
         return this.bookRepo.getAllBooks();
     }
 }

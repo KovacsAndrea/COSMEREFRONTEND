@@ -1,8 +1,7 @@
 import { Grow } from "@mui/material";
 import { GameCharacter } from "../../../../localData/models/gameCharacter.ts";
 import { HeroCardAvatar } from "./heroCardAvatarComponent.tsx";
-import { ChangeHeroButton, ChangeHeroCardComponent, HeroCardComponent, SelectHeroButton, SelectHeroCardComponent } from "../../genericComponents/buttons/cardButtons/cardButtons.tsx";
-import { useState } from "react";
+import { ChangeHeroCardComponent, SelectHeroCardComponent } from "../../genericComponents/buttons/cardButtons/cardButtons.tsx";
 
 export const ChosenHeroCard:React.FC<{ heroData: GameCharacter, onClickDetails: any, onGoToCharacters: any}> = 
 ({heroData, onClickDetails, onGoToCharacters}) => {

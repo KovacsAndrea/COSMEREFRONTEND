@@ -1,9 +1,7 @@
 import { useNavigate } from "react-router-dom"
 import { useGlobalState } from "../../../../globalVarialbles.tsx"
-import { HeroCard } from "../../../components/gameComponents/heroCardComponent/heroCardComponent.tsx"
 import { CosmereGrid } from "../../../components/genericComponents/grid/grid.tsx"
 import { ChosenHeroCard } from "../../../components/gameComponents/heroCardComponent/chosenHeroCardComponent.tsx"
-import { IoFlash } from "react-icons/io5"
 import './gameChoicePage.css'
 import { ChosenLocationCard } from "../../../components/gameComponents/heroCardComponent/locationCardComponent.tsx"
 export const GamePageChoice:React.FC<{}> = ({}) =>{

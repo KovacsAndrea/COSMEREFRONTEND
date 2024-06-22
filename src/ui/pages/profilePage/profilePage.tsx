@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './profilePage.css';
 import axios from 'axios';
 import { useGlobalState } from '../../../globalVarialbles.tsx';
-import { Footer, FooterCosmere } from '../../components/genericComponents/footer/footer.tsx';
 import { Slide } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { CosmereButtonRed } from '../../components/genericComponents/buttons/otherButtons/otherButtons.tsx';

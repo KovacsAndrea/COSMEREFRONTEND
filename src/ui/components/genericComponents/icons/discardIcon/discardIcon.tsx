@@ -1,7 +1,6 @@
 import {Fade} from '@mui/material'
 import '../iconStyle.css'
-import { FcUndo } from "react-icons/fc"
-import { IoArrowBackCircle, IoArrowUndoCircle } from 'react-icons/io5'
+import { IoArrowUndoCircle } from 'react-icons/io5'
 
 export const DiscardIcon:React.FC<{onClickAction: any}> = ({ onClickAction}) => {
     return (

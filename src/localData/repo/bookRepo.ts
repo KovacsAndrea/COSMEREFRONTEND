@@ -1,10 +1,10 @@
 import { dummyRafo } from "../data/localBooks.ts";
-import { BookData } from "../models/book.ts";
+import { Book } from "../models/book.ts";
 
 export class BookRepo{
-    private books: BookData[] = dummyRafo;
+    private books: Book[] = dummyRafo;
 
-    public getAllBooks(): BookData[] {
+    public getAllBooks(): Book[] {
         return this.books;
     }
 }

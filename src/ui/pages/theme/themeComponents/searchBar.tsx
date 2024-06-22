@@ -1,4 +1,3 @@
-import { Grow } from "@mui/material"
 import { FaSearch } from "react-icons/fa"
 
 export const SearchBar: React.FC<{}> = ({}) => {

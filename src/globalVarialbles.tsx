@@ -4,7 +4,7 @@ import { FilterData } from "./localData/models/filterData.ts";
 import { SortData } from "./localData/models/sortData.ts";
 import { BookRepo } from "./localData/repo/bookRepo.ts";
 import { BookService } from "./localData/service/bookService.ts";
-import { Book, BookData } from "./localData/models/book.ts";
+import { Book } from "./localData/models/book.ts";
 import { ChapterRepo } from "./localData/repo/chapterRepo.ts";
 import { ChapterServ } from "./localData/service/chapterService.ts";
 import { GameCharacter } from "./localData/models/gameCharacter.ts";
@@ -21,8 +21,8 @@ interface GlobalState{
     usingLocal: boolean;
     setUsingLocal: React.Dispatch<React.SetStateAction<boolean>>;
 
-    localBookList: BookData[];
-    setLocalBookList: React.Dispatch<React.SetStateAction<BookData[]>>;
+    localBookList: Book[];
+    setLocalBookList: React.Dispatch<React.SetStateAction<Book[]>>;
     
     mongoBookList: Book[];
     setMongoBookList: React.Dispatch<React.SetStateAction<Book[]>>;
@@ -131,7 +131,7 @@ export const GlobalStateProvider: React.FC<{children: ReactNode}> = ({children})
     const [clientIsConnectedToInternet, setClientIsConnectedToInternet] = useState(true);
     const [serverIsRunning, setServerIsRunning] = useState(true);
     const [usingLocal, setUsingLocal] = useState(false);
-    const [localBookList, setLocalBookList] = useState<BookData[]>([]);
+    const [localBookList, setLocalBookList] = useState<Book[]>([]);
     const [mongoBookList, setMongoBookList] = useState<Book[]>([]);
     
     

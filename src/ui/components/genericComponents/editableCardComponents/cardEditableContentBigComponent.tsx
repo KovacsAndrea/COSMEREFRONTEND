@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { adjustAreaHeight, validateContent } from "./utils.tsx"
-import { IoAlertCircle, IoChevronDownOutline, IoChevronUpOutline } from "react-icons/io5"
+import { IoAlertCircle } from "react-icons/io5"
 import './editableCardComponentStyle.css'
 
 export const CardEditableContentBigComponent: React.FC<{

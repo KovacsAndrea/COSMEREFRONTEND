@@ -26,6 +26,7 @@ export const AddIcon:React.FC<{onClickAction: any}> = ({ onClickAction}) => {
         }
         else{addIconStyle = "cosmere-icon active big-icon golden"}
     }
+    if(errorMessage == "") {errorMessage = ""}
     return (
         <Fade in = {true} timeout={500}> 
             <div className="cosmere-icon-wrapper">

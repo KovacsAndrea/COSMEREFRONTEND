@@ -1,6 +1,5 @@
 import {Fade} from '@mui/material'
 import '../iconStyle.css'
-import { FcInfo } from "react-icons/fc"
 import { IoInformationCircle } from 'react-icons/io5'
 
 export const InfoIcon:React.FC<{onClickAction: any}> = ({ onClickAction}) => {

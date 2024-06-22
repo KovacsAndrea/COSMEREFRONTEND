@@ -6,14 +6,13 @@ import { CrowEmblemLeft, CrowEmblemRight } from '../genericComponents/emblems/re
 import { PopUp } from '../genericComponents/popUp/popUp.tsx'
 import { FilterContent } from './filterContent.tsx'
 import './filterStyle.css'
-import { accessErrorMessagge, offlineErrorMessagge } from '../../constants/errors.ts'
+import { accessErrorMessagge, } from '../../constants/errors.ts'
 
 export const FilterComponent: React.FC<{filterIsOpen: boolean, setFilterIsOpen: any}> =({filterIsOpen, setFilterIsOpen}) => {
 
     const {cosmerePath} = useGlobalState()
     const token = sessionStorage.getItem('token')
-    const [filterIsActive, setFilterIsActive] = useState(false);
-    const [isLoading, setIsLoading] = useState(true);
+    const [_filterIsActive, setFilterIsActive] = useState(false);
 
     const {
         //this is the set of all available filter criteria
@@ -62,7 +61,6 @@ export const FilterComponent: React.FC<{filterIsOpen: boolean, setFilterIsOpen: 
             setCurrentDateData(_currentFilterData.dates);
 
             //component is done loading 
-            setIsLoading(false);
         }
         if(usingLocal){useLocalData()} else { useCloudData()}
     }, [])

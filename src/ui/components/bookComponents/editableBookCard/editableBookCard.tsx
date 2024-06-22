@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { BookData } from "../../../../localData/models/book.ts"
 
 import { useEffect, useRef, useState } from "react"
@@ -12,7 +12,6 @@ import { CardTitleComponent } from "../../genericComponents/editableCardComponen
 import { CardUneditableComponent } from "../../genericComponents/editableCardComponents/cardUneditableContentComponent.tsx"
 import { Slide } from "@mui/material"
 import { BookIconComponent } from "../../genericComponents/icons/iconComponents/bookIconComponent.tsx"
-import { ShallanEmblemLeft, ShallanEmblemRight, SmallShallanEmblemLeft, SmallShallanEmblemRight } from "../../genericComponents/emblems/rectangleEmblems.tsx"
 import axios from "axios"
 export const EditableBookCard: React.FC<{bookData: BookData}> = ({bookData}) => {
     const [title, setTitle] = useState(bookData._title);
@@ -38,8 +37,7 @@ export const EditableBookCard: React.FC<{bookData: BookData}> = ({bookData}) => 
         refreshMongoBookList, 
         updateCurrentPage, 
         refreshFilterData, 
-        setComponentIsLoading,
-        goingToMainPage} = useGlobalState();
+        setComponentIsLoading,} = useGlobalState();
 
     const [titleValidator, setTitleValidator] = useState(false)
     const [descriptionValidator, setDescriptionValidator] = useState(false)

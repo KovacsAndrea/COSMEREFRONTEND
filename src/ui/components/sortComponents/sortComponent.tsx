@@ -9,7 +9,7 @@ import { SortContent } from "./sortContent.tsx"
 export const SortComponent: React.FC<{sortIsOpen: boolean, setSortIsOpen: any}> =({sortIsOpen, setSortIsOpen}) => {
     const {cosmerePath} = useGlobalState()
     const token = sessionStorage.getItem('token')
-    const [sortIsActive, setSortIsActive] = useState(false);
+    const [_sortIsActive, setSortIsActive] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
     console.log(isLoading)
     const [sortCriteria, setSortCriteria] = useState<string>("")

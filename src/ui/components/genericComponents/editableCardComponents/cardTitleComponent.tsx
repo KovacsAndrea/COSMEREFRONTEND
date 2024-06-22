@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { adjustAreaHeight, validateContent } from "./utils.tsx"
 import { REGEX } from "../../../constants/regex.ts"
-import { IoAlert, IoAlertCircle, IoAlertOutline, IoChevronDownOutline, IoChevronUpOutline } from "react-icons/io5"
+import { IoAlertCircle } from "react-icons/io5"
 
 export const CardTitleComponent: React.FC<{
     title: any

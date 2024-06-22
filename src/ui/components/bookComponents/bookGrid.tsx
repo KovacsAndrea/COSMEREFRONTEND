@@ -20,12 +20,10 @@ export const BookLogic:React.FC<{}> = ({}) => {
         setPaginationShouldBeComputed,
         currentPage,
         cosmerePath,
-        searchText,
         setComponentIsLoading
     } = useGlobalState()
     const token = sessionStorage.getItem('token');
     const [deleteBook, setDeleteBook] = useState("")
-    const [isLoading, setIsLoading] = useState(true);
 
 
 
@@ -76,7 +74,16 @@ export const BookLogic:React.FC<{}> = ({}) => {
         currentPage])
     return (
         <>{usingLocal ? 
-            <>{localBookList.map((bookData: BookData) => <BookCard bookData={bookData} setDeleteBook = {setDeleteBook} key = {bookData._id}/>)}</> :
+            <>{localBookList.map((book: Book) => {
+                let bookData: BookData = {
+                    _id: book._id,
+                    _title: book._title,
+                    _description: book._description,
+                    _planet: book._planet,
+                    _system: book._system,
+                    _shard: book._shard,
+                    _date: book._date.toString()}
+            return <BookCard bookData={bookData} setDeleteBook = {setDeleteBook} key = {bookData._id}/>})}</> :
        
             <>{mongoBookList.map((book: Book) => {
                 let bookData: BookData = {

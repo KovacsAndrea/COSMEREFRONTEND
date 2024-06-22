@@ -1,6 +1,5 @@
 import { DeleteIcon } from "../deleteIcon/deleteIcon.tsx"
 import { DiscardIcon } from "../discardIcon/discardIcon.tsx"
-import { InfoIcon } from "../infoIcon/infoIcon.tsx"
 import { SaveIcon } from "../saveIcon/saveIcon.tsx"
 
 export const BookIconComponent:React.FC<{onClickDiscard: any, 

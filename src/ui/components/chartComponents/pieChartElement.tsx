@@ -4,7 +4,6 @@ import { ChartElement } from '../../../localData/models/chartData.ts';
 import { PieChart } from '@mui/x-charts';
 
 export const PieChartElement: React.FC<{data: ChartElement[]}> = ({data}) => {
-    const errorMessage = "Data is empty. Cannot display pie chart.";
     try{
         return (
             <>

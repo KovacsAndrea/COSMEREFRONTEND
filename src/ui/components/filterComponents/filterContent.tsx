@@ -91,7 +91,7 @@ export const FilterContent: React.FC<{
             <TallGridColumn header={<FilterGridColumnHeader
                     title={shards}
                     onCheckAllAction={checkAllShards}
-                    onUncheckAllAction={unCheckAllSystems} />}>
+                    onUncheckAllAction={unCheckAllShards} />}>
                     {shardData != null ? 
                     <>{shardData.map( shard => <CheckboxButton
                         name = {shard } 
