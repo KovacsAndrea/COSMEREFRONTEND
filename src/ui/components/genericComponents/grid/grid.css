@@ -1,0 +1,14 @@
+.center-cosmere-grid{
+    align-items: center;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.card-grid {
+    display:grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+}

@@ -1,0 +1,50 @@
+.details-button{
+    margin-right: 10px;
+    background: var(--gold);
+    color: white;
+}
+
+.details-button:hover{
+    background: var(--goldHover);
+}
+
+.delete-button{
+    margin-right: 10px;
+    background-color: var(--grey);
+    color: white;
+}
+
+.delete-button:hover{
+    background-color: var(--greyHover);
+}
+
+.disabled-button{
+    background: rgb(169, 169, 169);
+    color: white;
+    cursor: default;
+}
+
+.button-card-component{
+    margin-top: 1rem;
+}
+
+
+.hero-details-button{
+    margin-left: 5px;
+    margin-right: 5px;
+    background: var(--gold);
+    color: white;
+    width: 80px;
+}
+
+.select-hero-button{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: var(--grey);
+    color: white;
+    width: 80px;
+}
+
+.hero-button-card-component{
+    margin-top: 10px;
+}

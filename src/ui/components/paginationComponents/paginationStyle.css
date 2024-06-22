@@ -1,0 +1,65 @@
+
+.filter-grid{
+    display:grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 0.5rem;
+    position: absolute;
+    height: 81%;
+    width: 93%;
+}
+
+.filter-grid-column{
+    flex: 1;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-radius: 7px;
+    padding-bottom: 30px;
+}
+
+
+.title-for-filter-category{
+    font-size: 23px;
+    font-family: fantasy;
+    color: var(--buttonGreyBlack);
+    font-weight: 50;
+    margin-right: 5px;
+}
+
+.design-for-option-column{
+    background-color: var(--mediumGrey);
+    padding-right: 15px;
+    height: 100%;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    overflow: auto;
+}
+
+.checkable-option-for-filter-button{
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.stilu-lu-vasile{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.stilu-lu-vasile-da-ptr-label{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+

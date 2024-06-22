@@ -1,0 +1,37 @@
+.out-of-investiture {
+    font-size: 25px;
+    font-family: fantasy;
+    color: var(--gold);
+  }
+  
+  .investiture-component-wrapper {
+    width: 100%; /* Adjust size as needed */
+    height: 100vh; /* Adjust size as needed */
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .investiture-component-spinner {
+    width: 170px;
+    height: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url('../../../../assets/photos/Dawnshard.png'); /* Image URL */
+    background-size: contain; /* Fit the image inside the container */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    animation: spin 8s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }

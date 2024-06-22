@@ -1,0 +1,57 @@
+.game-background{
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.shattered-plains-location-background{
+    background-image: url(../../../../assets/photos/PixelShatteredPlains.jpg);
+}
+
+.thaylenah-location-background{
+    background-image: url(../../../../assets/photos/PixelThaylenah.jpg);
+}
+
+.urithiru-location-background{
+    background-image: url(../../../../assets/photos/PixelUrithiru.jpg);
+}
+
+.luthadel-location-background{
+    background-image: url(../../../../assets/photos/PixelLuthadel.jpg);
+}
+
+.elendel-location-background{
+    background-image: url(../../../../assets/photos/PixelElendel.jpg);
+}
+
+.crimson-sea-location-background{
+    background-image: url(../../../../assets/photos/PixelTress.jpg);
+}
+
+.kilahito-location-background{
+    background-image: url(../../../../assets/photos/PixelYumi.jpg);
+}
+
+.elantris-location-background{
+    background-image: url(../../../../assets/photos/PixelElantris.jpg);
+}
+
+.shadesmar-location-background{
+    background-image: url(../../../../assets/photos/PixelShadesmar.jpg);
+}
+
+.warbreaker-location-background{
+    background-image: url(../../../../assets/photos/PixelWarbreakerCity.jpg);
+}
+
+

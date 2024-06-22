@@ -1,0 +1,45 @@
+.ok-button{
+    background: var(--grey);
+    color: white;
+    width: 90px;
+    margin-top: 10px;
+}
+
+.ok-button:hover{
+    background: var(--greyHover);
+}
+
+.cosmere-button{
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+}
+.cosmere-big-button{
+    height: 140px;
+    width: 140px;
+    margin: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.cosmere-black{
+    background-image: url("../../../../../assets/photos/CosmereLogoWhiteFotor.png");
+}
+
+.cosmere-black:hover{
+    background-image: url("../../../../../assets/photos/CosmereLogoFotor.png");
+}
+
+.cosmere-black-red{
+    background-image: url("../../../../../assets/photos/CosmereLogo.png");
+}
+
+.cosmere-black-red:hover{
+    background-image: url("../../../../../assets/photos/CosmereLogoRed.png");
+}

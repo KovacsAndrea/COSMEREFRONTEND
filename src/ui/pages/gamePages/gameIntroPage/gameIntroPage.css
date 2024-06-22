@@ -1,0 +1,194 @@
+
+.intro-game-page-wrapper{
+    width: 100%;
+    height: 2550px;
+    background-color: rgb(25, 23, 34);
+    display: flex;
+    justify-content: center;
+}
+
+.intro-game-page-background{
+    background-color: rgb(6, 3, 10);
+    width: 100%;
+    height: 2550px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.intro-game-page-button-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-game-page-wallpaper-section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:850px;
+    width: 100%;
+    background-color: rgb(25, 23, 34);
+    display: flex;
+}
+.intro-game-kredik-shaw{
+    background-image: url("../../../../assets/photos/KredikShaw.jpg");
+}
+
+.intro-game-luthadel{
+    background-image: url("../../../../assets/photos/Luthadel.jpg");
+}
+
+
+.intro-the-cosmere-awaits-wrapper{
+    width: 450px;
+    height: 500px;
+    outline: none;
+    border: none;
+    text-align: right;
+    display: flex;
+    justify-content:end;
+    align-items: baseline;
+    position: absolute;
+    right: 20px;
+    top:10px;
+    padding-right:40px;
+    border-radius: 5px;
+}
+
+.intro-the-cosmere-awaits{
+    font-size: 120px;
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+.begin-game-button-wrapper{
+    height: 600px;
+    width: 400px;
+    padding: auto;
+    margin: auto;
+    display: flex;
+}
+
+
+.begin-game-button{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.begin-game-button:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.begin-game-play-title {
+    cursor: default;
+    font-family: fantasy;
+    font-size: 45px;
+}
+
+.theflex{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameCard {
+    height: 450px;
+    width: 400px;
+    margin: 150px;
+    transition: all 0.8s ease;
+    border-radius: 5px;
+    position: relative; /* Ensure relative positioning for pseudo-element */
+    overflow: hidden; /* Hide overflow content */
+    background-color: white;
+    text-align: center;
+}
+
+.game-card-stormlight{
+    background-image: url(../../../../assets/photos/GameCardPNG.png);
+}
+
+.game-card-allomancy{
+    background-image: url(../../../../assets/photos/AllomGame.png);
+}
+
+.game-card-breath{
+    background-image: url(../../../../assets/photos/BreathGame.png);
+}
+
+.game-card-brando{
+    background-image: url(../../../../assets/photos/brando.png);
+    cursor: pointer;
+}
+
+.game-card-spore{
+    background-image: url(../../../../assets/photos/Spores.png);
+}
+
+.game-card-aondor{
+    background-image: url(../../../../assets/photos/aondor.png);
+}
+
+.game-card-ink{
+    background-image: url(../../../../assets/photos/fotor-ink.png);
+}
+
+
+
+
+
+.gameCard:hover {
+    transform: scale(1.5); /* Increase size on hover */
+    z-index: 1; /* Ensure hovered card is above others */
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.gameCard:not(:hover) {
+    margin: 10px;
+    transform: scale(0.7);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.gameCard h2 {
+    margin: 10px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.gameCard p {
+    margin: 10px;
+    display: none; /* Initially hide paragraph */
+    font-size: 9px;
+    font-weight: 500;
+}
+
+.gameCard:hover p {
+    display: block; /* Show paragraph on hover */
+}
+
+.cosmere-play-icon{
+    font-size: 30px;
+    color: rgb(35, 35, 35);
+    display: block;
+    margin:auto
+}
+
+.cosmere-play-icon:hover{
+    color: var(--gold);
+}

@@ -1,0 +1,19 @@
+.filter-component-wrapper{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    margin-bottom: 25px;
+    background-image: url("../../../assets/photos/Iron.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.haha{
+    width: 200px;
+    height: 400px;
+    background-color: aqua;
+}
+
+
+

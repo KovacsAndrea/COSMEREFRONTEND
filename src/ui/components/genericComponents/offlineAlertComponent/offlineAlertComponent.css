@@ -1,0 +1,52 @@
+
+
+.offline-alert-component {
+    position: fixed; 
+    border-radius: 7px;
+    box-shadow: 0 4px 6px 0 rgb(71, 71, 71); 
+    background-color: rgb(214, 214, 214);
+    height: 350px;
+    width: 550px;
+    overflow-y: auto;
+}
+
+.offline-alert-header{
+    width: 190px;
+    height: 60px;
+    
+}
+
+.offline-alert-title {
+    font-size: 40px;
+    font-family: fantasy;
+    color: var(--buttonGreyBlack);
+    text-align: center;
+    padding-left: 9px;
+}
+
+.ivory-emblem{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(214, 214, 214);
+    background-image: url("../../../../assets/photos/IvoryAI.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+.offline-alert-content{
+    padding: 25px;
+    font-size: 17px;
+}
+.this-fact-is{
+    font-weight: 700;
+}
+
+.offline-alert-footer{
+    position: absolute;
+    left:60px;
+    bottom: 35px
+}

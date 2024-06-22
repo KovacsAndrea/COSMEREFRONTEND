@@ -1,0 +1,138 @@
+.rectangle-emblem{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    box-shadow: 0 4px 6px 0 rgb(71, 71, 71); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+}
+
+.big-emblem{
+    top: 50%;
+    width: 12%;
+    height:89%;
+    background-position: center;
+}
+
+.fixed-rectangle-emblem{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px 0 rgb(71, 71, 71); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+}
+
+.medium-emblem{
+    height: 70%;
+    width: 150px;
+}
+
+.medium-position-left{
+    background-position: right;
+    left: 30px;
+}
+
+.medium-position-right{
+    background-position: left;
+    right: 30px
+}
+
+.small-emblem{
+    top: 55%;
+    width: 9%;
+    height: 50%;
+}
+
+.small-position-left{
+    background-position: left;
+    left: 6%;
+}
+
+.small-position-right{
+    background-position: right;
+    right: -4%;
+}
+
+
+@media (max-width: 1150px) {
+    .rectangle-emblem {
+        display: none;
+    }
+}
+
+.position-left{
+    left: 10%;
+}
+
+.position-right{
+    right: -2%;
+}
+
+
+
+
+.painter-emblem-left{
+    background-image: url("../../../../assets/photos/Painter.jpg");
+}
+
+.painter-emblem-right{
+    background-image: url("../../../../assets/photos/PainterReversed.jpg");
+}
+
+.shantid-emblem-left{
+    background-image: url("../../../../assets/photos/Shantid.png");
+}
+
+.shantid-emblem-right{
+    background-image: url("../../../../assets/photos/ShantidReversed.png");
+}
+
+.sunlit-emblem-left{
+    background-image: url("../../../../assets/photos/Sunlit.jpg");
+}
+
+.sunlit-emblem-right{
+    background-image: url("../../../../assets/photos/SunlitReversed.jpg");
+}
+
+.crow-emblem-left{
+    background-image: url("../../../../assets/photos/Crow.jpg");
+}
+
+.crow-emblem-right{
+    background-image: url("../../../../assets/photos/CrowReversed.jpg");
+}
+
+.shallan-emblem-left{
+    background-image: url("../../../../assets/photos/ShallanCutReversed.jpg");
+}
+
+.shallan-emblem-right{
+    background-image: url("../../../../assets/photos/ShallanCut.jpg");
+}
+
+.emblem-wrapper{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.shallan-png-emblem{
+    height: 150px;
+    width: 215px;
+    background-image: url("../../../../assets/photos/ShallanChapterPNG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
+
+.shallan-emblem-message{
+    font-size: 25px;
+    font-family: fantasy;
+    width: 90px;
+    text-align: left;
+    color: rgb(115, 115, 115);
+}
+

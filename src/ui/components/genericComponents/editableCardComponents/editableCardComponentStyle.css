@@ -1,0 +1,120 @@
+.editable-card-section-wrapper{
+    width: 100%;
+    background-color: var(--mediumWhiteGrey);
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.editable-card-section-wrapper:hover{
+    background-color: var(--darkWhiteGrey);
+}
+.multiple-line-section{
+    margin: 10px;
+    padding: 5px;
+}
+
+.single-line-section{
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+
+.editable-card-text-area{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    text-align: center;
+    font-size: 17px;
+    font-family: inherit;
+}
+
+.multiple-line-text-area{
+    width: 92%;
+}
+
+.single-line-text-area{
+    width: 80%;
+}
+
+.editable-card-title{
+    font-size: 40px;
+    font-family: fantasy;
+    color: rgb(70, 70, 70);
+    width: 92%;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+    text-align: center;
+}
+
+.uneditable-text-area{
+    width: 92%;
+    cursor: default;
+}
+
+.editable-card-text-area:focus{
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+}
+
+.editable-card-section-icon{
+    font-size: 22px;
+    color: rgb(163, 11, 11);
+}
+
+.editable-card-section-icon:hover{
+    cursor: pointer;
+}
+
+.editable-card-expand-icon{
+    font-size: 35px;
+    color: rgb(87, 87, 87);
+    margin: 5px;
+}
+
+.editable-card-expand-icon:hover{
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+
+.editable-card-icon-section{
+    position: absolute; 
+    top: 3px; 
+    right: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.uneditable-card-section-wrapper{
+    width: 100%;
+    background-color: var(--mediumWhiteGrey);
+    border-radius: 5px;
+    position: relative;
+    margin: 10px;
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    cursor: default;
+}
+
+.empty-section{
+    background-color: transparent
+}
+
+.editable-card-accordion-component{
+ font-size: 12px;
+ font-weight: 600;
+}

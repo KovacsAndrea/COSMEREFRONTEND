@@ -1,0 +1,129 @@
+.hero-card-avatar-wrapper{
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.hero-card-avatar-wrapper:hover{
+    background-color: transparent
+}   
+
+.hero-card-avatar{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.kaladin-hero{
+    background-image: url(../../../../assets/photos/KaladinAI.jpg);
+}
+
+.shallan-hero{
+    background-image: url(../../../../assets/photos/ShallanAI.jpg);
+}
+
+.szeth-hero{
+    background-image: url(../../../../assets/photos/SzethSonSonVolano.jpg);
+}
+
+.dalinar-hero{
+    background-image: url(../../../../assets/photos/DalinarAI.jpg);
+}
+
+.navani-hero{background-image: url(../../../../assets/photos/Navani.jpg);}
+
+.jasnah-hero{background-image: url(../../../../assets/photos/JasnahAI.jpg);}
+
+.venli-hero{background-image: url(../../../../assets/photos/Venli.jpg);}
+
+.lift-hero{background-image: url(../../../../assets/photos/Lift.jpg);}
+
+.sleepless-hero{background-image: url(../../../../assets/photos/Sleepless.jpg);}
+
+
+.vin-hero{background-image: url(../../../../assets/photos/VinAI.jpg);}
+
+.kel-hero{background-image: url(../../../../assets/photos/Kel.jpg);}
+
+.elend-hero{background-image: url(../../../../assets/photos/Elend.jpg);}
+
+.marsh-hero{background-image: url(../../../../assets/photos/Marsh.jpg);}
+
+.vire-hero{background-image: url(../../../../assets/photos/Vire.jpg)}
+
+.tress-hero{background-image: url(../../../../assets/photos/GoodTress.jpg)}
+
+.painter-hero{background-image: url(../../../../assets/photos/PainterAI.jpg)}
+
+.yumi-hero{background-image: url(../../../../assets/photos/Yumi.jpg)}
+
+.vasher-hero{background-image: url(../../../../assets/photos/Vasher.jpg)}
+
+.vivenna-hero{background-image: url(../../../../assets/photos/Vivenna.jpg)}
+
+.hoid-hero{background-image: url(../../../../assets/photos/Hoid.jpg)}
+
+.odium-hero{background-image: url(../../../../assets/photos/OdiumChampion.jpg)}
+
+.wax-hero{background-image: url(../../../../assets/photos/Waxillium.jpg)}
+
+.wayne-hero{background-image: url(../../../../assets/photos/BestWayne.jpg)}
+
+.no-player-hero{background-image: url(../../../../assets/photos/NoPlayer.jpg)}
+
+.chosen-hero-card {
+    background-color: rgb(247, 247, 247);
+    padding: 1rem;
+    border-radius: 7px;
+    margin: 1rem;
+    box-shadow: 0 2px 5px 0 rgb(173, 173, 173); 
+    width: 350px;
+}
+
+.chosen-hero-card:hover {
+    background-color: var(--mediumWhiteGrey);
+}
+
+.hero-card {
+    background-color: rgb(247, 247, 247);
+    padding: 1rem;
+    border-radius: 7px;
+    margin: 1rem;
+    box-shadow: 0 2px 5px 0 rgb(173, 173, 173); 
+    width: 350px;
+}
+
+.hero-card:hover{
+    border: 10px solid var(--gold);
+}
+
+.unselected-card {
+    border: 10px solid  rgb(247, 247, 247);
+}
+
+.selected-card{
+    border: 10px solid var(--gold);
+}
+
+.hero-card-class{
+    text-align: center;
+    font-size: 29px;
+    font-family: fantasy;
+}
+
+.hero-card-name{
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.hero-card-button-wrapper{
+    display: flex;
+    justify-content: center;
+}

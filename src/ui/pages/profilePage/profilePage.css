@@ -1,0 +1,124 @@
+/* profilePage.css */
+.profile-page{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+
+}
+.profile-page-wrapper {
+    padding: 100px;
+    padding-top:20px;
+    min-height: 100vh;
+  }
+  
+  .current-user-box {
+    margin-top: 80px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: var(--lightWhiteGrey);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.332);
+    position: relative;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    background-color: var(--darkWhiteGrey);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.332);
+    font-size: 17px;
+  }
+  
+  .users-table th,
+  .users-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .users-table th {
+
+  }
+
+  .users-table td {
+    border-radius: 0px 0px 5px 5px;
+    background-color: var(--lightWhiteGrey);
+  }
+
+
+  .users-table td:hover {
+    background-color: var(--mediumWhiteGrey);
+  }
+  
+  .editable-cell {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .editable-cell input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .profile-page-landscape{
+    height: 112vh;
+    width: 100%;
+    background-image: url(../../../assets/photos/ChineseLuthadelPNG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .profile-edit-button{
+    background-color: var(--grey);
+    color: white;
+    width: 120px;
+  }
+
+  .profile-edit-button:hover{
+    background-color: var(--greyHover);
+  }
+
+  .profile-save-button{
+    background-color: green;
+    color: white;
+    width: 60%;
+  }
+
+  .profile-save-button:hover{
+    background-color: rgb(0, 113, 0);
+  }
+
+  .user-profile-page-select{
+    background-color: var(--darkWhiteGrey);
+    font-size: 17px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+  }
+
+  .user-profile-page-select:focus{
+    outline: none;
+    border: none;
+  }
+
+  .user-profile-page-select option{
+    background-color: var(--lightWhiteGrey);
+  }
+
+  .user-profile-page-select option:hover{
+    background-color: rgb(113, 7, 7);
+  }
+
+  .profile-cosmere-button-wrapper{
+    background-color: rgba(0, 255, 255, 0);
+    position: absolute; /* Changed to absolute */
+    top: 0; /* Position at the top */
+    right: 0; /* Position at the right */
+  }

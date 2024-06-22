@@ -1,0 +1,61 @@
+
+
+.editable-book-card-page-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url(../../../../assets/photos/waveswavesp.png); /* Replace with your image URL */
+    background-size: 100% 100vh; /* Cover the top 100vh */
+    background-repeat: no-repeat; /* Prevent repetition */
+    background-position: top; /* Position the image at the top */
+    background-color: transparent; /* Make the initial background transparent */
+}
+
+.editable-book-card-page-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 100vh; /* Start the black background after 100vh */
+    left: 0;
+    width: 100%;
+    height: calc(100% - 100vh); /* Fill the rest of the container */
+    background-color: black; /* Black background */
+    z-index: -1; /* Ensure it’s behind the content */
+}
+
+.editable-book-entity-card{
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    width: 1100px;
+    margin-top: 120px;
+    border-radius: 5px;
+    background-color:  var(--lightWhiteGrey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 6px 10px 1px rgba(0, 0, 0, 0.493); 
+    z-index: 500;
+}
+
+.editable-book-card-content-wrapper{
+    padding-top: 30px;
+    width: 1000px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.editable-entity-card-grid-wrapper{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    width: 100%;
+    gap: 15px;
+    padding-top: 10px;
+}
+

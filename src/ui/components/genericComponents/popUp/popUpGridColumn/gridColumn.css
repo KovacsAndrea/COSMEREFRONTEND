@@ -1,0 +1,53 @@
+.filter-grid-column-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.title-for-grid-category{
+    font-size: 23px;
+    font-family: fantasy;
+    color: var(--buttonGreyBlack);
+    font-weight: 50;
+    margin-right: 5px;
+}
+
+.cool-check-uncheck-icons{
+    font-size: 20px;
+    color: var(--buttonGreyBlack);
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.pop-up-grid-column{
+    flex: 1;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.pop-up-grid-column-content{
+    background-color: var(--mediumWhiteGrey);
+    padding: auto;
+    border-radius: 7px;
+    overflow:auto;
+}
+
+.tall-grid-column {
+    height: 90%;
+    
+}
+
+.short-grid-column {
+    height: 200px;
+}
+
+.pop-up-grid-column-content:hover{
+    background-color: var(--darkWhiteGrey);
+}

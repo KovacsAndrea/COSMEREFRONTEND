@@ -1,0 +1,57 @@
+.side-bar-button{
+    height: 45px;
+    width: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 12px;
+    margin-bottom:12px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.iron-button{
+    background-image: url("../../../../../assets/photos/Iron.png");
+}
+
+.tin-button{
+    background-image: url("../../../../../assets/photos/Tin.png");
+}
+
+.steel-button{
+    background-image: url("../../../../../assets/photos/Steel.png");
+}
+
+.copper-button{
+    background-image: url("../../../../../assets/photos/Copper.png");
+}
+
+.tag {
+    position: absolute;
+    width: 80px;
+    margin-top: 8px;
+    margin-left:50px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: var(--bookCardBackground);
+    box-shadow: 0 2px 5px 0 rgb(173, 173, 173); 
+    color:var(--grey);
+    font-weight: 600;
+    
+    text-align: center;
+    display: none;
+}
+
+.side-bar-button:hover .tag{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sort-filter-chart-icons{
+    margin-left: 5px;
+}
+
+

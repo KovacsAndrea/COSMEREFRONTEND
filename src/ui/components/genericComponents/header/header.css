@@ -1,0 +1,29 @@
+.header-info-banner{ 
+    margin-top: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    align-content: center;
+    text-align: center;
+    width: 500;
+    background-color: transparent;
+    background-image: url(../../../../assets/photos/Header3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.heder-info-title{
+    color: rgb(41, 41, 41);
+    font-size: 4rem;
+    font-family: fantasy;
+    padding: 0;
+    margin: 0;
+}
+
+.header-paragraph{
+    color: black;
+    font-size:18px;
+    font-weight: 500;
+}
