@@ -178,10 +178,10 @@ export const GlobalStateProvider: React.FC<{children: ReactNode}> = ({children})
         setGameLocation(noLocation)
     }
 
-    //const _renderedCosmerePath = "https://cosmerebackend.onrender.com"
+    const _renderedCosmerePath = "https://cosmerebackend.onrender.com"
     const _localCosmerePath = "http://localhost:4000"
 
-    const cosmerePath = _localCosmerePath
+    const cosmerePath = _renderedCosmerePath;
     const refreshMongoBookList = () =>{
       console.log("FETCHING BOOKS")
       axios.get(cosmerePath + "/mongoBooks", {headers: {Authorization: `${token}`}}).then( response => {
