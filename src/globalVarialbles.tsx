@@ -181,7 +181,7 @@ export const GlobalStateProvider: React.FC<{children: ReactNode}> = ({children})
     const _renderedCosmerePath = "https://cosmerebackend.onrender.com"
     const _localCosmerePath = "http://localhost:4000"
 
-    const cosmerePath = _renderedCosmerePath;
+    const cosmerePath = _localCosmerePath;
     const refreshMongoBookList = () =>{
       console.log("FETCHING BOOKS")
       axios.get(cosmerePath + "/mongoBooks", {headers: {Authorization: `${token}`}}).then( response => {
