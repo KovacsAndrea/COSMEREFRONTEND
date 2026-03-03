@@ -179,7 +179,7 @@ export const GlobalStateProvider: React.FC<{children: ReactNode}> = ({children})
     }
 
     const _renderedCosmerePath = "https://cosmerebackend.onrender.com"
-    const _localCosmerePath = "http://localhost:4000"
+    //const _localCosmerePath = "http://localhost:4000"
 
     const cosmerePath = _renderedCosmerePath;
     const refreshMongoBookList = () =>{
